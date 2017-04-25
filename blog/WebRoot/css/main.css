@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.head{
+    position: absolute;
+    width: 100%;
+    height:35px;
+    background:#aaaaaa;
+}
+.head_1{
+    margin-left: 300px;
+    width: 100px;
+    height: 100%;
+    float: left;
+}
+.head_1 img{
+    width:auto;
+    float: left;
+    height: 100%;
+}
+.head_1 p{
+    width: 50%;
+    float: right;
+    font-size: 16pt;
+    color: #ffffff;
+    font-weight:bold;
+}
+.head_2{
+    width:30%;
+    height:100%;
+    float: right;
+}
+.head_2 ul{
+    width: 50%;
+    height: 100%;
+}
+.head_2 ul li{
+    height: auto;
+    padding: 3px;
+    float:left;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.head_2 ul li a{
+    color: #333333;
+    text-decoration:none;
+}
+.head_2 img{
+    padding-top: 3px;
+    width: 22px;
+    height: 22px;
+}
+
+.content{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: 35px;
+}
+.content_img{
+    width: 100%;
+    height: 200px;
+    background: url("../img/top.jpg");
+    background-size: 100% 100%;
+}
+.content_img_txt{
+    float: left;
+    padding: 10px;
+    margin-left: 300px
+}
+.content_img_txt h1{
+    color: #ffffff;
+}
+.content_img_txt p{
+    color: #ffffff;
+}
+.content_img_button {
+    padding-right: 150px;
+    width: 300px;
+    height:100%;
+    float: right;
+    vertical-align: bottom;
+}
+.content_img_button ul{
+    margin-top: 160px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+.content_img_button ul li{
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.content_img_button ul li button{
+    border:solid 2px #449d44;
+    background: #ffffff;
+    color: #000000;
+    font-size: 10pt;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.center{
+    padding-top: 3px;
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.left{
+    border: solid 1px #aaaaaa;
+    border-radius: 5px;
+    width: 20.5%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+}
+.right{
+    border: solid 1px #aaaaaa;
+    border-radius: 5px;
+    width:78%;
+    height: auto;
+    overflow:hidden;
+    float: right;
+}
+.left1{
+    border-bottom: solid 1px #aaaaaa;
+    padding-bottom: 5px;
+}
+
+.left1_head{
+    border: solid 1px #aaaaaa;
+    border-radius: 5px;
+    padding:3px 0;
+    background: #5bc0de;
+    text-align: center;
+}
+.left1_img{
+    padding: 5px 30px;
+}
+.left1_img img{
+    border: solid 1px #ffffff;
+    border-radius: 50% 50%;
+    width:100%;
+    height: 100%;
+}
+.left1_button{
+    text-align: center;
+padding: 5px;
+}
+.left1_button button{
+    border:solid 2px #449d44;
+    background: #449d44;
+    color: #000000;
+    font-size: 10pt;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.left1_button button:hover{
+    color: #ffffff;
+    font-weight: bold;
+}
+.left1_list{
+    padding-left: 30px;
+    color: #ff230e;
+}
+.left1_list i{
+    font-family: '锟斤拷锟斤拷';
+    color:#5bc0de;
+}
+.left2_content{
+    padding: 6px;
+    color: #ff0000;
+}
+.left2_content p{
+    font-size: 10pt;
+}
+.weibo_img{
+    padding: 10px;
+  overflow: hidden;
+}
+.weibo_img img{
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+.weibo_txt{
+    padding: 5px;
+    float: left;
+}
+.weibo_txt p{
+    float: left;
+    font-size: 10pt;
+}
+.weibo_txt button{
+    border:solid 2px #ff0000;
+    background: #ff0000;
+    font-size: 10pt;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 4px 0 0 4px;
+    color: #ffffff;
+
+}
+.read_rank{
+    padding: 4px;
+}
+.read_rank ul{
+
+}
+.read_rank ul li{
+
+    border-bottom: dotted 1px #aaaaaa;
+    list-style-type: none;
+    font-size: 9pt;
+    font-family: '榛戜綋';
+}
+.bottom{
+    border: solid 1px #d4d4d4;
+    text-align: center;
+    padding:20px;
+    margin-top: 2px;
+    font-size: 10pt;
+    font-family:'榛戜綋';
+    color: #aaaaaa;
+}
+
+
+.right_list{
+    border-bottom: dotted 1px #aaaaaa;
+    padding: 5px;
+    overflow: hidden;
+
+}
+.right_list p{
+    font-family: '鏂板畫浣�';
+}
+.right_list_head{
+    padding: 3px;
+
+}
+
+.right_list_head img{
+ height: 20px;
+    display: inline-block;
+    float: left;
+}
+.right_list_head span{
+    font-family: '榛戜綋';
+    float: left;
+    color: #FF3300;
+    display: inline-block;
+}
+.right_list_head p{
+    display: inline-block;
+    font-family: '榛戜綋';
+}
+
+.right_list_bottom{
+    width: 100%;
+    text-align: right;
+}
+.right_list_bottom ul{
+    width: 300px;
+    height: 100%;
+    overflow: hidden;
+    float: right;
+}
+.right_list_bottom ul li{
+    display: inline-block;
+    list-style-type: none;
+    float: left;
+    padding-left: 7px;
+    height: 20px;
+    line-height: 20px;
+    color: #ff0000;
+}
+
+
+.modify_head{
+    width: 100%;
+    height: 30px;
+    background: #1cf4ff;
+    text-align: left;
+   padding: 10px 0;
+}
+.modify_head h2{
+    margin-left: 40px;
+}
+
+.modify_content{
+    width: 95%;
+    padding:2.5%;
+    text-align: center;
+}
+.modify_content table{
+    border: solid 1px #aaaaaa;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background: #ffffff;
+}
+.modify_content table th{
+    text-align: center;
+}
+.modify_content table td{
+    text-align: center;
+    padding: 1px;
+
+}
+.increase{
+    border:solid 1px #333333;
+    border-radius: 5px;
+    background: #FF3300;
+    padding: 5px;
+}
+.modify_content table a{
+    cursor: pointer;
+}
+
+
+.title{
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+.title span{
+    font-size: 16pt;
+
+}
+.b_intro {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+}
+.b_intro textarea{
+    width: 800px;
+    height: 200px;
+    resize: none;
+    outline: none;
+}
+.span_1{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16pt;
+}
+.title input{
+    width: 300px;
+    border:solid 1px #aaaaaa;
+    border-radius: 5px;
+    height: 30px;
+    background: #ffffff;
+}
+.title input:hover{
+    border: solid 1px #FF3300;
+}
+.add_bottom{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.add_bottom button{
+    border:solid 1px #FF3300;
+    padding: 5px;
+    color: #ffffff;
+    background: #FF3300;
+    cursor: pointer;
+}
+.add_bottom button:hover{
+    background: #5bc0de;
+}
